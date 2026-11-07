@@ -13,7 +13,13 @@ eigene Installation und erhält das ursprüngliche Profil und dessen Welten.
 Prism Launcher und JDK 21 werden von den offiziellen Quellen geladen. Die
 Microsoft-Anmeldung findet in Prism statt und muss selbst bestätigt werden.
 
-Vor dem Spielen werden signierte Freigaben unserer Mod und des Launchers geprüft.
+Aktuell ist **reines ATM10 8.5 ohne Infection Network, Spore und Squaremap**
+freigegeben. Launcher **0.3.0** prüft vor dem Start die Original-Mods und verschiebt
+bekannte Projektzusätze mit passenden Prüfsummen in Sicherungen. Unbekannte
+zusätzliche oder veränderte Original-Mods stoppen den Start zur Prüfung.
+JourneyMap und GeckoLib gehören zur originalen Basis und bleiben enthalten.
+
+Vor dem Spielen werden das signierte Serverprofil und Launcher-Updates geprüft.
 Launcher-Updates werden nach dem Beenden der Anwendung mit Sicherung installiert;
 danach startet der Launcher neu. Anschließend erneut Spielen wählen.
 
@@ -23,8 +29,12 @@ Spielordner und Einstellungen werden weiterverwendet.
 
 ## Umfang
 
-Die übrigen ATM10-Mods bleiben auf dem importierten Packstand 8.5. Die aktuellen
-Updatekanäle verwalten Infection Network und dessen Launcher. Fremde Mod-JARs
+Die ATM10-Mods bleiben auf dem originalen Packstand 8.5. Packdefinition,
+Prüfsummen und Original-Downloadverweise stehen im
+[Basisprofil-Release](https://github.com/keizuro/infection-network-releases/releases/tag/profile-atm10-8.5-s13000001).
+Das originale [Clientpaket](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/9431424)
+und [Serverpaket](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/9431427)
+werden weiterhin über CurseForge bezogen. Fremde Mod-JARs
 oder Minecraft-Dateien werden hier nicht verteilt. Eine gültige Minecraft-Java-
 Spielberechtigung ist erforderlich.
 
