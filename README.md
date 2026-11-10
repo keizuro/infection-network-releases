@@ -6,7 +6,7 @@ Minecraft **1.21.1**, NeoForge **21.1.265**, original **ATM10 8.5** base.
 
 [Download the Windows x64 launcher](https://github.com/keizuro/infection-network-releases/releases/download/stable/InfectionNetworkLauncher-Windows-x64.zip)
 
-Run `InfectionNetwork.Launcher.exe`. Launcher **0.9.1** checks its signed self-update
+Run `InfectionNetwork.Launcher.exe`. Launcher **0.10.0** checks its signed self-update
 when opened, then checks the signed Stable client profile before Play. English is
 default; German is available in Settings. An existing ATM10 source may be selected,
 or the launcher can install the official pack. Sign in to Microsoft inside Prism
@@ -30,7 +30,8 @@ and disabling. Personal configs, schematics, shaders, resourcepacks and saves re
 
 The three addons belong on the client only. They are not added to the dedicated
 server. Stable does not include Spore, Infection Network or Squaremap. The separate
-admin Beta channel is unchanged by this update; do not mix its game folder with Stable.
+admin Beta channel contains Infection Network 1.0.0-rc9 and pinned Spore 2.2.0j.
+Do not mix its game folder with Stable.
 
 Further Minecraft/rendering/shader acceptance was cancelled at the owner's request;
 these runtime functions remain unverified. Fullbright's default B binding can conflict
@@ -44,3 +45,13 @@ contains signed metadata and provider checksums. Third-party mod JARs and Minecr
 files are not rehosted here. [All releases](https://github.com/keizuro/infection-network-releases/releases)
 contain public downloads only; project source is maintained in a private repository.
 Never upload account files, tokens, private signing keys or player/world data here.
+
+## Admin beta command center
+
+Enable beta under Settings > Advanced settings > Administration and local testing.
+Use matching test servers and disposable worlds. The command center receives public
+map, events, history, biology quality/intensity, defense stability and disclosed
+strategy/raid profiles directly from Squaremap. No Discord bot, token or webhook
+is needed. Hidden areas and private team information remain filtered by the server.
+Back up a stopped server before migration; downgrade requires the complete backup.
+Human multiplayer balance, long-duration soak and client audio remain unverified.
